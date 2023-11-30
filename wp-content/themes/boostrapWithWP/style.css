@@ -735,6 +735,38 @@ article.post {
     padding-left: 5px;
 }
 
+.b2w-pagination{
+    position: relative;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.b2w-pagination li{
+    position: relative;
+    margin-left: 6px;
+    display: inline-block;
+}
+
+.b2w-pagination li .page-numbers{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    color: #161616;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50px;
+    display: inline-block;
+    transition: all var(--transition-dur) ease;
+}
+
+.b2w-pagination li .page-numbers.current,
+.b2w-pagination li:hover a{
+    color: #fff;
+    background-color: #F50057;
+}
+
 /* Footer Section */
 
 .footer-calltoaction {
