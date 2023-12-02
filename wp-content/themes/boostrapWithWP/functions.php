@@ -29,7 +29,7 @@ function b2w_assets(){
     wp_enqueue_style('flaticon', get_theme_file_uri('assets/font/flaticon.css'), [], false, 'all' );
 
     //main CSS file
-    wp_enqueue_style('bootstrap2wordpress', get_theme_file_uri('style.css'), ['bootstrap'], '1.0', 'all' );
+    wp_enqueue_style('bootstrap2wordpress', get_theme_file_uri('style.css'), ['bootstrap'], false, 'all' );
 
     // Enqueue js files
     wp_enqueue_script('bootstrap', get_theme_file_uri('assets/js/bootstrap.min.js'), [], 'v5.1.1', true);
