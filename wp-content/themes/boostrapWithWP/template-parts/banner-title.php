@@ -43,7 +43,7 @@
         <div class="container">
             <div class="row flex-vertical-center">
                 <div class="col-sm-6">
-                    <p><?= wp_kses_post(get_theme_mod('subscrive_text' , '<p><strong>Want to save 20% on the course?</strong> Enter your email and we\'ll send you the discount code!</p>')) ?></p>
+                    <p><?= wp_kses_post(get_theme_mod('subscribe_text' , '<p><strong>Want to save 20% on the course?</strong> Enter your email and we\'ll send you the discount code!</p>')) ?></p>
                 </div>
                 <div class="col-sm-6">
                     <?php

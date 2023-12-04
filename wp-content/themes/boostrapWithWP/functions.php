@@ -61,3 +61,6 @@ function b2w_pagination(){
     $links .= '</nav>';
     echo wp_kses_post($links);
 }
+
+//Add customizar functionality
+require get_template_directory() . '/includes/customizer-b2w.php';
