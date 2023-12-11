@@ -159,6 +159,7 @@ input[type="text"] {
 #top-navigation {
     position: absolute;
     width: 100%;
+    z-index: 9;
 }
 
 .main-menu .navigation {
